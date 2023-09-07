@@ -1,6 +1,6 @@
 # Weather App Readme
 
-This README provides an overview of the Weather App, which is a simple web application built using React. The app displays weather information for the user's current location and the forecast for the next few days.
+This is a simple web application built using React. The app displays weather information for the user's current location and the forecast for the next few days.
 
 ## Table of Contents
 
@@ -34,3 +34,5 @@ The Weather App utilizes the following APIs to provide weather information:
 
 - [URL](https://api.opencagedata.com)
 - Purpose: Geocodes latitude and longitude coordinates to determine the city or location.
+
+Made By **Muhammad Talha Shafique**

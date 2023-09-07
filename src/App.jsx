@@ -20,7 +20,7 @@ function App() {
     const latitude = coords?.latitude
     const longitude = coords?.longitude
     
-    axios.get(`http://www.7timer.info/bin/api.pl?lon=${longitude}&lat=${latitude}&product=civillight&output=json`)
+    axios.get(`https://www.7timer.info/bin/api.pl?lon=${longitude}&lat=${latitude}&product=civillight&output=json`)
     .then(res => setData(res.data.dataseries))
     .catch(err => console.log(err.message))
 

@@ -27,10 +27,10 @@ The Weather App utilizes the following APIs to provide weather information:
 
 ### 7timer Weather API:
 
-- [URL](http://www.7timer.info/bin/api.pl)
+- [URL](http://www.7timer.info)
 - Purpose: Fetches weather data based on latitude and longitude coordinates.
 
 ### OpenCageData Geocoding API:
 
-- [URL](https://api.opencagedata.com/geocode/v1/json)
+- [URL](https://api.opencagedata.com)
 - Purpose: Geocodes latitude and longitude coordinates to determine the city or location.

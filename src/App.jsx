@@ -88,7 +88,7 @@ function App() {
   }
 
   return (
-    <div className="container-md outer">
+    <div className="container-md outer d-flex justify-content-center">
       <div className="main mx-md-5 px-md-4 pb-3 d-flex flex-column justify-content-center align-items-center">
           <h2 className="text-center my-4 mx-4">WEATHER - <span className='fs-3'>{city?.toUpperCase()}</span></h2>  
 

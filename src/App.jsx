@@ -37,13 +37,13 @@ function App() {
     getLocation()
   }, [])
 
-  const date = data[0]?.date.toString()
-  const year = Number(date?.slice(0,4))
-  const month = Number(date?.slice(4,6))
-  const day = Number(date?.slice(7,8))
+  // const date = data[0]?.date.toString()
+  // const year = Number(date?.slice(0,4))
+  // const month = Number(date?.slice(4,6))
+  // const day = Number(date?.slice(7,8))
 
-  const formattedMonth = new Date(year, month -1, day).toDateString().slice(4, 7)
-  const formattedDay = new Date(year, month -1, day).toDateString().slice(0, 3)
+  // const formattedMonth = new Date(year, month -1, day).toDateString().slice(4, 7)
+  // const formattedDay = new Date(year, month -1, day).toDateString().slice(0, 3)
 
   const getImages = (weather) => {
     let image
@@ -96,7 +96,7 @@ function App() {
           <div className="main-card mx-md-2 mx-3 d-flex align-items-center justify-content-evenly">
             <img className="main-card-img" src={getImages(data[0]?.weather)} alt="" />
             <div>
-              <h2>{formattedDay} ({day} {formattedMonth})</h2>
+              <h2>Today</h2>
               <h4>{data[0]?.temp2m.min} - {data[0]?.temp2m.max} &deg;C</h4>
               <h4>{data[0]?.weather}</h4>
               {/* <p>feels like: 29 C</p>

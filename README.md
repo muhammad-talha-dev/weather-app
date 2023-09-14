@@ -17,6 +17,8 @@ This is a simple web application built using React. The app displays weather inf
 
 ## Usage
 
+- Turn on location on your device.
+- Allow the website to access your location.
 - The app will request access to your geolocation. Allow it to fetch weather information based on your current location.
 - You will see the current weather information along with a 3-day forecast.
 - Explore the weather conditions and images displayed for each day.
